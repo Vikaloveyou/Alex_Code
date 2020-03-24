@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #464f54;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.main-container {
+    margin-top: 250px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+    width: 1060px;
+    height: 100vh;
+    position: relative; 
+}
+
+.title {
+    background-color: #181818;
+    box-shadow: -3.536px -3.536px 59px 0px rgba(0, 0, 0, 0.16);
+    width: 876px;
+    height: 186px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.tools {
+    padding-left: 40px;
+    background-color: #fbc02d;
+    box-shadow: -3.536px -3.536px 59px 0px rgba(0, 0, 0, 0.16);
+    width: 876px;
+    height: 76px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+header {
+    width: ;
+    position: absolute;
+    z-index: 1;
+    top: -93px;
+    right: 0;
+}
+
+.tools {
+    position: absolute;
+    bottom: -76px;
+    right: -90px;
+}
+
+.title-text {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 200px 100px 0;
+}
+
+p {
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: 300;
+    color: grey;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
